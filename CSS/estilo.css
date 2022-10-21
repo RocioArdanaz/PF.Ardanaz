@@ -1,0 +1,381 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Libre Baskerville", serif;
+  /*Barra de navegación*/
+  /*footer*/
+  /*Pagina de Contacto*/
+}
+body h1 {
+  font-size: 3em;
+  color: #e6c570;
+}
+body h2 {
+  font-size: 2.7em;
+}
+body h3 {
+  font-size: 2em;
+}
+body p {
+  font-size: 1.25em;
+}
+body ul {
+  list-style: none;
+}
+body button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  color: #e6c570;
+  background-color: #e2928d;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #f4cabb;
+  transition: ease-out 0.4s;
+}
+body button:hover {
+  box-shadow: inset 0 0 0 50px #f4cabb;
+}
+body .navbar {
+  background-color: #e2928d;
+}
+body .navbar .dropdown-menu {
+  background-color: #f4cabb;
+}
+body .navbar .nav-item {
+  font-size: 20px;
+  color: #ffffff;
+}
+body .navbar .nav-item a {
+  color: #ffffff;
+}
+body #hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multi/img/fondo-3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body #intro {
+  text-align: center;
+  padding: 200px 12px;
+}
+body #service {
+  background-color: #bcbebf;
+  color: black;
+  text-align: center;
+  margin-bottom: 10%;
+}
+body .footer {
+  background: #e2928d;
+  background-size: cover;
+  box-sizing: content-box;
+  margin: auto;
+  width: 100%;
+  margin: 0;
+}
+body .footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  padding: 3rem 6rem;
+}
+body .footer .first {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  color: #ffffff;
+  font-family: "Libre Baskerville", serif;
+}
+body .footer .first h4 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 1.6em;
+  color: #fff;
+  padding-bottom: 0.5em;
+}
+body .footer .first h4::after {
+  content: "";
+  background: #e6c570;
+  width: 20%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+body .footer .first p {
+  font-size: 18px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+}
+body .footer .second {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  color: #ffffff;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+}
+body .footer .second2 {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  color: #ffffff;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+}
+body .footer .second h4 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 1.6em;
+  color: #fff;
+  padding-bottom: 0.5em;
+}
+body .footer .second h4::after {
+  content: "";
+  background: #e6c570;
+  width: 20%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+}
+body .footer .second li {
+  list-style: none;
+  padding-bottom: 30px;
+}
+body .footer .second a, body .footer .second2 a {
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: 0.2s;
+}
+body .footer .second a:hover, body .footer .second2 a:hover {
+  color: #fff;
+  transition: 0.2s;
+  text-shadow: 1px 1px 20px rgb(177, 169, 12);
+  text-decoration: none;
+}
+body .footer .third {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: "Libre Baskerville", serif;
+  text-align: right;
+  font-weight: bold;
+}
+body .footer .third h4 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 1.6em;
+  color: #fff;
+  padding-bottom: 0.5em;
+}
+body .footer .third h4::after {
+  content: "";
+  background: #e6c570;
+  width: 20%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 80%;
+}
+body .footer .third li {
+  list-style: none;
+  padding-bottom: 15px;
+}
+body .footer .third a {
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: 0.2s;
+}
+body .footer .third a:hover {
+  color: #fff;
+  transition: 0.2s;
+  text-shadow: 1px 1px 20px rgb(177, 169, 12);
+}
+@media screen and (max-width: 1000px) {
+  body .footer .first {
+    text-align: center;
+  }
+  body .footer .first h4::after {
+    left: 40%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  body .footer .third {
+    text-align: center;
+  }
+  body .footer .third h4::after {
+    left: 40% !important;
+  }
+}
+body .footer .margin {
+  margin-left: 20px;
+}
+body .footer .line {
+  height: 2px;
+  background-color: #e6c570;
+  width: 100%;
+}
+body .footer .container h1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+body .footer .container p {
+  font-size: 14px;
+  color: #ffffff;
+}
+body #galeria {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+body .container {
+  width: 85vw;
+  margin: 1rem auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+body .bg,
+body .overlay {
+  text-align: center;
+}
+body img,
+body .overlay {
+  transition: 0.3s all;
+  border-radius: 3px;
+}
+body .bg {
+  float: left;
+  max-width: 31%;
+  position: relative;
+  margin: 0.5%;
+}
+body .bg img {
+  width: 100%;
+  margin-bottom: -4px;
+}
+body .bg .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  opacity: 0;
+}
+body .bg .overlay h2 {
+  padding-top: 20%;
+  font-family: "Droid Serif", serif;
+}
+body .bg .overlay p {
+  font-family: "Julius Sans One", sans-serif;
+}
+body .bg:hover .overlay {
+  opacity: 1;
+}
+body .bg:hover img {
+  filter: blur(2px);
+}
+@media screen and (max-width: 1148px) {
+  body .bg {
+    max-width: 48%;
+    margin: 1%;
+  }
+}
+@media screen and (max-width: 768px) {
+  body .bg {
+    float: none;
+    max-width: 80%;
+    margin: 1% auto;
+  }
+}
+body .cont-f {
+  background-image: url(../multi/img/fondo.1.jpg);
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+body .form {
+  background: rgba(0, 0, 0, 0.5);
+  width: 90%;
+  max-width: 650px;
+  margin: auto;
+  padding: 5px 35px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 3px;
+}
+body .form .form-header, body .form .form.title {
+  font-weight: normal;
+  font-family: "Libre Baskerville", serif;
+  color: #e6c570;
+  padding: 14px 0;
+}
+body .form .form-label {
+  display: block;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: relative;
+  color: #e2928d;
+  font-weight: bold;
+}
+body .form .form-input, body .form .form-textarea {
+  background: rgba(0, 0, 0, 0.7);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #f4cabb;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body .form .form-textarea {
+  resize: vertical;
+  max-height: 150px;
+  min-height: 50px;
+}
+body .form .btn-submit {
+  width: 100%;
+  outline: none;
+  background: #e2928d;
+  font-size: 16px;
+  border: none;
+  color: #ffffff;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+body .form .btn-submit:hover {
+  background-color: #e6c570;
+}
