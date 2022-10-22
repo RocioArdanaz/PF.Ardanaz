@@ -84,7 +84,6 @@ body .footer {
   box-sizing: content-box;
   margin: auto;
   width: 100%;
-  margin: 0;
 }
 body .footer .row {
   display: flex;
@@ -122,9 +121,8 @@ body .footer .first h4::after {
   left: 0;
 }
 body .footer .first p {
-  font-size: 18px;
+  font-size: 15px;
   font-family: "Libre Baskerville", serif;
-  font-weight: bold;
 }
 body .footer .second {
   margin-top: 40px;
@@ -166,8 +164,7 @@ body .footer .second a, body .footer .second2 a {
   color: #ffffff;
   text-decoration: none;
   letter-spacing: 3px;
-  font-weight: bold;
-  font-size: 14px;
+  font-size: 20px;
   transition: 0.2s;
 }
 body .footer .second a:hover, body .footer .second2 a:hover {
@@ -182,7 +179,6 @@ body .footer .third {
   color: #fff;
   font-family: "Libre Baskerville", serif;
   text-align: right;
-  font-weight: bold;
 }
 body .footer .third h4 {
   font-size: 20px;
@@ -210,8 +206,7 @@ body .footer .third a {
   color: #ffffff;
   text-decoration: none;
   letter-spacing: 3px;
-  font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
   transition: 0.2s;
 }
 body .footer .third a:hover {

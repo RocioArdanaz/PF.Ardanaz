@@ -91,7 +91,7 @@ body{
   box-sizing: content-box;
   margin: auto;
   width: 100%;
-  margin: 0;
+  
   .row{
     display: flex;
     flex-wrap: wrap;
@@ -130,9 +130,9 @@ body{
       }
 
   .first p {
-      font-size: 18px;
+      font-size: 15px;
       font-family: $letraprincipal;
-      font-weight: bold;
+      
   }
 
 .second {
@@ -181,8 +181,7 @@ body{
   color:#ffffff;
   text-decoration: none;
   letter-spacing: 3px;
-  font-weight: bold;
-  font-size: 14px;
+  font-size: 20px;
   transition: 0.2s;
 }
 
@@ -202,7 +201,7 @@ body{
   color: #fff;
   font-family: $letraprincipal;
   text-align: right;
-  font-weight: bold;
+  
 }
 
 
@@ -239,8 +238,7 @@ body{
       color: #ffffff;
       text-decoration: none;
       letter-spacing: 3px;
-      font-weight: bold;
-      font-size: 14px;
+      font-size: 15px;
       transition: 0.2s;
   }
 
